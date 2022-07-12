@@ -3,7 +3,7 @@ import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import GetSection from "../components/GetSection/view";
 
-test("user-action ", async () => {
+test("rander data", async () => {
   render(<GetSection />);
 
   const button = screen.getByTestId("btn1");

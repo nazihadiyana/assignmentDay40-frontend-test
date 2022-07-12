@@ -2,7 +2,7 @@ import React from "react";
 import { render, screen, waitFor } from "@testing-library/react";
 import PostSection from "../components/PostSection/view";
 
-test("user Action ", async () => {
+test("render user Action ", async () => {
   render(<PostSection />);
 
   const input = screen.getByTestId("judul");
