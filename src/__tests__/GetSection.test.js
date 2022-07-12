@@ -6,7 +6,7 @@ import GetSection from "../components/GetSection/view";
 test("rander data", async () => {
   render(<GetSection />);
 
-  const button = screen.getByTestId("btn1");
+  const button = screen.getByTestId("get-button");
   userEvent.click(button);
 
   await waitFor(() => {

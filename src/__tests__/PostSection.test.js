@@ -5,7 +5,7 @@ import PostSection from "../components/PostSection/view";
 test("render user Action ", async () => {
   render(<PostSection />);
 
-  const input = screen.getByTestId("judul");
+  const input = screen.getByTestId("postdata-button");
   const event = new Event("change");
   input.value = "missile";
   input.dispatchEvent(event);
