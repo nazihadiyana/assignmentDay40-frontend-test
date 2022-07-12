@@ -7,8 +7,8 @@ test("user Action ", async () => {
 
   const input = screen.getByTestId("judul");
   const event = new Event("change");
-  input.value = "cartridge";
+  input.value = "missile";
   input.dispatchEvent(event);
 
-  expect(input).toHaveValue("cartridge");
+  expect(input).toHaveValue("missile");
 });
